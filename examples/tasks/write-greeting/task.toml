@@ -1,0 +1,13 @@
+[task]
+name = "demo/write-greeting"
+
+# Agent 阶段最多运行 5 秒，超时会记录进 TrialResult。
+[agent]
+timeout_sec = 5
+
+# Verifier 不关心 Agent 的内部实现，只检查 Environment 最终状态。
+[verifier]
+type = "file"
+path = "greeting.txt"
+expected_content = "Hello from Mini Harbor!"
+timeout_sec = 5

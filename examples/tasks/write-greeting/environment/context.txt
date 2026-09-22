@@ -1,0 +1,1 @@
+This file represents the task's initial environment state.
