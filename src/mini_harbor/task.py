@@ -89,7 +89,7 @@ class Task:
         )
 
     def digest(self) -> str:
-        """根据 Task 全部文件生成稳定摘要，供 lock.json 固化输入。"""
+        """根据 Task 全部文件生成稳定digest，供 lock.json 固化输入。"""
 
         digest = hashlib.sha256()
         for file_path in sorted(path for path in self.path.rglob("*") if path.is_file()):

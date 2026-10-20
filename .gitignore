@@ -6,3 +6,17 @@ build/
 dist/
 *.egg-info/
 tmp*/
+# Local model credentials; commit only the blank template.
+.env
+.env.*
+!.env.example
+
+# Machine-generated assistant context.
+.claude/
+CLAUDE.md
+
+# Document authoring and render QA remain local; retain the source snapshot.
+summary-note/_build/*
+!summary-note/_build/code-statistics.json
+~$*
+.DS_Store

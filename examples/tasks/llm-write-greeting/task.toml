@@ -1,0 +1,11 @@
+[task]
+name = "smoke/llm-write-greeting"
+
+[agent]
+timeout_sec = 180
+
+[verifier]
+type = "file"
+path = "greeting.txt"
+expected_content = "Hello from Mini Harbor!"
+timeout_sec = 5

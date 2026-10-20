@@ -181,6 +181,11 @@ class Trial:
                 message=str(exc),
             )
         finally:
+            # 真实模型失败或超时时，也保留已发生的响应和工具调用。
+            partial = getattr(self.agent, "result", None)
+            if self.result.agent_result is None and partial is not None:
+                self.result.agent_result = partial
+                write_json(self.paths.agent_dir / "trajectory.json", partial.actions)
             self.result.agent_execution.finished_at = utc_now()
             self._event("agent_finished")
 

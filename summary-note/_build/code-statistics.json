@@ -1,0 +1,92 @@
+[
+  {
+    "file": "src/mini_harbor/__init__.py",
+    "lines": 25,
+    "nonempty": 22,
+    "sha256": "a5aeda97e969bcd2c6a76cee762dd245c033a3d776e243e450cc8d85bada6b9d"
+  },
+  {
+    "file": "src/mini_harbor/__main__.py",
+    "lines": 5,
+    "nonempty": 2,
+    "sha256": "c9fec88b741374cf1c418d117d7f51320ae864e4137ba6cc9193c0e9c22e5f4d"
+  },
+  {
+    "file": "src/mini_harbor/agents.py",
+    "lines": 76,
+    "nonempty": 55,
+    "sha256": "0c2ecbd6c04493dedef54345ad0cdc67e6fd10ea025a725319c030052b300492"
+  },
+  {
+    "file": "src/mini_harbor/cli.py",
+    "lines": 61,
+    "nonempty": 47,
+    "sha256": "4e6b2caf1586765d0a71a770c7cc7f58ed3032d72b1ccda8b2f5c89cbbe80ba9"
+  },
+  {
+    "file": "src/mini_harbor/environment.py",
+    "lines": 133,
+    "nonempty": 105,
+    "sha256": "81373aac5c424d7bc817e559b85440905155f8861fed4ae70906f69eac0fd293"
+  },
+  {
+    "file": "src/mini_harbor/job.py",
+    "lines": 143,
+    "nonempty": 125,
+    "sha256": "539f54750a3ddb0c2c92a7b445c2bb1de85c2c711185542f6b49dbdf3e7e142d"
+  },
+  {
+    "file": "src/mini_harbor/llm_agent.py",
+    "lines": 144,
+    "nonempty": 128,
+    "sha256": "7d17c484f7e00367f416032d7fba67d53e98db798730d53e1fdc28aed5d3d215"
+  },
+  {
+    "file": "src/mini_harbor/models.py",
+    "lines": 154,
+    "nonempty": 118,
+    "sha256": "fb5c63f067c8d5476b4c6257229870d8c992b629de8678fd7bfe070d22978017"
+  },
+  {
+    "file": "src/mini_harbor/queue.py",
+    "lines": 73,
+    "nonempty": 59,
+    "sha256": "2c0df76f13a442c93ce0c27b76ff7c93edc252f374268aaf371491f1dee8bc00"
+  },
+  {
+    "file": "src/mini_harbor/serialization.py",
+    "lines": 26,
+    "nonempty": 17,
+    "sha256": "836baf7ca1e0e6d31578887baa257c3bec69559c91189abbdaf7a8c064e14126"
+  },
+  {
+    "file": "src/mini_harbor/task.py",
+    "lines": 107,
+    "nonempty": 85,
+    "sha256": "b7d43d749d21563eaaf3c2ef27a888c1147531558978732b6048e3dcaef39db2"
+  },
+  {
+    "file": "src/mini_harbor/trial.py",
+    "lines": 206,
+    "nonempty": 179,
+    "sha256": "65b1ca92e3d5e276dd3a43cd6238742d174e1c4868d01433a526c98c560430b4"
+  },
+  {
+    "file": "src/mini_harbor/verifier.py",
+    "lines": 64,
+    "nonempty": 49,
+    "sha256": "163863c4acb270a0931d0b4e649e40361a3fe99ff85eba675acbf2a842fb1844"
+  },
+  {
+    "file": "tests/test_framework.py",
+    "lines": 198,
+    "nonempty": 167,
+    "sha256": "87f44323a996729576f735734f91017495f0ac65f9691f0c1ef1097c403f6d4a"
+  },
+  {
+    "file": "tests/test_llm_agent.py",
+    "lines": 68,
+    "nonempty": 57,
+    "sha256": "acdb7c4b81e6c253256cba239e725d2aa146ff6a97e016ef3a4dec517b9c58f8"
+  }
+]

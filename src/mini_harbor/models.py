@@ -1,6 +1,6 @@
 """Mini Harbor 的配置、锁文件和结果数据模型。
 
-完整 Harbor 使用 Pydantic 维护大量兼容性与校验逻辑。教学版只使用
+完整 Harbor 使用 Pydantic 维护大量兼容性与校验逻辑。mini版只使用
 标准库 dataclass，但仍然把“用户配置”“确定的 Trial”和“运行结果”分开。
 """
 

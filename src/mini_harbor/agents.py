@@ -33,7 +33,7 @@ class RuleBasedFileAgent(BaseAgent):
         WRITE_FILE answer.txt
         文件内容
 
-    它不是大模型，也不模拟推理能力；用途是稳定展示 Evaluation Harness 链路。
+    用途是测试 Evaluation Harness 链路。
     """
 
     name = "rule-based-file-agent"
@@ -68,5 +68,9 @@ def create_agent(name: str) -> BaseAgent:
 
     if name == RuleBasedFileAgent.name:
         return RuleBasedFileAgent()
+    if name == "responses-file-agent":
+        from mini_harbor.llm_agent import ResponsesFileAgent
+
+        return ResponsesFileAgent.from_env()
     raise ValueError(f"未知 Agent：{name}")
 
